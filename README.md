@@ -8,10 +8,11 @@
  * Installation et configuration d'[EasyAdminBundle](https://github.com/javiereguiluz/EasyAdminBundle) pour créer notre backoffice
  * Installation et configuration de [FOSUserBundle](https://github.com/FriendsOfSymfony/FOSUserBundle) pour gérer les utilisateurs de notre application, et sécuriser notre backoffice.
 
+## Installer l'application
 
 Comment installer cette application chez soi ?
 
-1. Télécharger au format ZIP, ou cloner avec Git.
+1. Télécharger au format ZIP, ou cloner avec Git. (voir les liens de la colonne de droite sur Github)
 2. Utiliser [Composer](getcomposer.org) pour installer les bibliothèques en exécutant cette commande:
 
   ```bash
@@ -34,7 +35,7 @@ Comment installer cette application chez soi ?
   php app/console fos:user:create --super-admin
   # FOSUserBundle vous demandera un nom d'utilisateur, une adresse e-mail et un mot de passe
   ```
-7. Accédez au backoffice à l'url `/admin/
+7. Accédez au backoffice à l'url `/admin/`
 
   a. Avec votre serveur web habituel (Apache, Nginx), vous devez accéder à l'url `web/app_dev.php/admin` de votre application.
 
